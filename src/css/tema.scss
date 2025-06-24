@@ -1,0 +1,62 @@
+@import "../bootstrap/scss/_functions";
+@import "../bootstrap/scss/_variables";
+
+$enable-shadows: true;
+
+// Anular colores predeterminados del tema
+$primary: #63907c;
+$secondary: #c2a97a;
+$tertiary: #006938;
+$light: #f1f0f0;
+$dark: #111815;
+$body-color: #6a5e64;
+$body-bg: #f1f0f0;
+
+:root {
+    --primary-100: #63907c;
+    --primary-200: #7fa795;
+    --primary-300: #9dbcae;
+    --accent-100: #c2a97a;
+    --accent-200: #c2a97a;
+    --accent-300: #c2a97a;
+    --background-100: #fcfdfd;
+    --background-200: #edf3f3;
+    --background-300: #dde9e9;
+    --text-100: #111815;
+    --text-200: #26362f;
+    --text-300: #3b5449;
+}
+
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+        "primary": $primary,
+        "secondary": $secondary,
+        "tertiary": $tertiary,
+        "light": $light,
+        "dark": $dark,
+    )
+);
+
+// Importar Bootstrap
+@import "../bootstrap/scss/bootstrap";
+
+// @font-face {
+//     font-family: "The Seasons";
+//     src: url("fonts/theseasons-lt.otf") format("opentype");
+// }
+
+// @font-face {
+//     font-family: "The Seasons Italic";
+//     src: url("fonts/theseasons-reg.otf") format("opentype");
+// }
+
+// .text-brand {
+//     font-family: "The Seasons", sans-serif !important;
+//     letter-spacing: 0.5px;
+// }
+
+// .text-sub {
+//     font-family: "The Seasons Italic", sans-serif !important;
+//     letter-spacing: 0.5px;
+// }
