@@ -3,36 +3,105 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tr3leusis</title>
+        <title>Integritas | Servicios Profesionales</title>
+
+        <!-- SEO -->
+        <meta
+            name="description"
+            content="Integritas - Servicios profesionales en gestión de talento humano. Muy pronto nuestra nueva plataforma estará disponible." />
+        <meta name="robots" content="noindex, nofollow" />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Integritas - Gestión de RRHH" />
+        <meta
+            property="og:description"
+            content="Muy pronto podrás conocer más sobre cómo ayudamos a organizaciones a crecer con integridad." />
+        <meta property="og:image" content="src/images/integritas_logo.svg" />
+        <meta property="og:type" content="website" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="src/images/integritas_favicon.ico" type="image/x-icon" />
+
+        <!-- Estilos -->
         <link rel="stylesheet" href="src/css/tema.css" />
         <script src="src/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/4ff96bfcc8.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+
+        <!-- Animación ligera -->
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: "Segoe UI", Roboto, sans-serif;
+                color: #212529;
+            }
+
+            .brand-title {
+                font-family: "Georgia", serif;
+                font-weight: bold;
+                color: #003366;
+            }
+
+            .text-subtle {
+                font-style: italic;
+                color: #6c757d;
+            }
+
+            .fade-in {
+                opacity: 0;
+                transform: translateY(30px);
+                animation: fadeIn 1s ease-out forwards;
+            }
+
+            .fade-in:nth-child(1) {
+                animation-delay: 0.3s;
+            }
+            .fade-in:nth-child(2) {
+                animation-delay: 0.5s;
+            }
+            .fade-in:nth-child(3) {
+                animation-delay: 0.7s;
+            }
+
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            footer {
+                font-size: 0.9rem;
+                color: #6c757d;
+            }
+        </style>
     </head>
+
     <body>
-        <div class="container-md">
-            <div class="d-flex flex-column align-items-center justify-content-center vh-100">
-                <img src="src/images/logo_image.svg" alt="Logo de Tr3leusis" class="img-fluid mb-5" style="max-width: 200px" />
-                <div class="display-1 text-brand">Pagina</div>
-                <div class="display-1 text-brand text-primary">En Construccion</div>
-                <p class="text-sub">He aprendido, he comprendido y he cambiado</p>
-                <div class="card shadow-lg mt-5" style="max-width: 40rem">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Estamos creando un espacio especialmente para ti</h5>
-                        <p class="card-text">
-                            Agradecemos tu paciencia mientras trabajamos en el desarrollo de nuestra nueva página web. Estamos
-                            comprometidos en ofrecerte una experiencia excepcional.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex w-100 mt-5 justify-content-center">
-                    <img
-                        src="src/images/logo_text.svg"
-                        alt="Logo Completo de Tr3leusis"
-                        class="img-fluid m-5"
-                        style="max-width: 15rem" />
+        <main role="main" class="container d-flex flex-column align-items-center justify-content-center vh-100 text-center">
+            <img src="src/images/integritas_logo.svg" alt="Logo Integritas" style="max-width: 180px" class="mb-4 fade-in" />
+
+            <h1 class="display-5 brand-title fade-in">Estamos construyendo algo con integridad</h1>
+            <p class="lead fade-in">
+                Muy pronto podrás conocer más sobre cómo ayudamos a las organizaciones a crecer con talento, ética y propósito.
+            </p>
+
+            <div class="card shadow-sm mt-4 fade-in" style="max-width: 32rem">
+                <div class="card-body">
+                    <h5 class="card-title">Nuestra nueva plataforma está en camino</h5>
+                    <p class="card-text">
+                        En Integritas, creemos que las personas son el centro del éxito empresarial. Mientras preparamos nuestro
+                        nuevo sitio, puedes contactarnos directamente si deseas más información sobre nuestros servicios de
+                        gestión de Recursos Humanos, reclutamiento, consultoría y formación.
+                    </p>
                 </div>
             </div>
-        </div>
+
+            <div class="mt-4 fade-in">
+                <a href="mailto:contacto@integritas.mx" class="btn btn-outline-primary">
+                    <i class="fas fa-envelope"></i> Contáctanos
+                </a>
+            </div>
+        </main>
+
+        <footer class="text-center py-4">© 2025 Integritas | Servicios Profesionales en Gestión Humana</footer>
     </body>
 </html>
