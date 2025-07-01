@@ -4,13 +4,13 @@
 $enable-shadows: true;
 
 // Anular colores predeterminados del tema
-$primary: #63907c;
-$secondary: #c2a97a;
-$tertiary: #006938;
+$primary: #384186;
+$secondary: #13b09c;
+$tertiary: #e94b35;
 $light: #f1f0f0;
 $dark: #111815;
 $body-color: #6a5e64;
-$body-bg: #f1f0f0;
+$body-bg: #e2e5ff;
 
 :root {
     --primary-100: #63907c;
@@ -41,22 +41,22 @@ $theme-colors: map-merge(
 // Importar Bootstrap
 @import "../bootstrap/scss/bootstrap";
 
-// @font-face {
-//     font-family: "The Seasons";
-//     src: url("fonts/theseasons-lt.otf") format("opentype");
-// }
+@font-face {
+    font-family: "Vincendo";
+    src: url("fonts/Vincendo-Regular.ttf") format("truetype");
+}
 
-// @font-face {
-//     font-family: "The Seasons Italic";
-//     src: url("fonts/theseasons-reg.otf") format("opentype");
-// }
+@font-face {
+    font-family: "Vincendo Italic";
+    src: url("fonts/Vincendo-Italic.ttf") format("truetype");
+}
 
-// .text-brand {
-//     font-family: "The Seasons", sans-serif !important;
-//     letter-spacing: 0.5px;
-// }
+.text-brand {
+    font-family: "Vincendo", sans-serif !important;
+    letter-spacing: 0.5px;
+}
 
-// .text-sub {
-//     font-family: "The Seasons Italic", sans-serif !important;
-//     letter-spacing: 0.5px;
-// }
+.text-sub {
+    font-family: "Vincendo Italic", sans-serif !important;
+    // letter-spacing: 0.5px;
+}
