@@ -63,9 +63,9 @@ function Footer() {
                                 </a>
                             </li>
                             <li className="mb-2">
-                                <a href="mailto:contacto@integritas.com" className="text-decoration-none text-muted">
+                                <a href="mailto:contacto@integritasservicios.com" className="text-decoration-none text-muted">
                                     <FontAwesomeIcon icon={faEnvelope} className="me-2" />
-                                    contacto@integritas.com
+                                    contacto@integritasservicios.com
                                 </a>
                             </li>
                         </ul>

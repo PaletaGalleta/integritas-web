@@ -102,7 +102,7 @@ function Privacy() {
                                 </p>
                                 <p>
                                     Para ejercer tus derechos ARCO, puedes enviar una solicitud a:
-                                    <strong> contacto@integritas.com</strong>
+                                    <strong> contacto@integritasservicios.com</strong>
                                 </p>
                             </div>
                         </div>

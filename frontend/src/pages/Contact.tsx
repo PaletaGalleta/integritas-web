@@ -82,8 +82,11 @@ function Contact() {
                                             <div>
                                                 <h5 className="text-primary">Email</h5>
                                                 <p className="mb-0">
-                                                    <a href="mailto:contacto@integritas.com" className="text-decoration-none">
-                                                        contacto@integritas.com
+                                                    <a
+                                                        href="mailto:contacto@integritasservicios.com"
+                                                        className="text-decoration-none"
+                                                    >
+                                                        contacto@integritasservicios.com
                                                     </a>
                                                 </p>
                                             </div>
@@ -112,7 +115,7 @@ function Contact() {
                                 </div>
 
                                 <div className="text-center mt-5">
-                                    <a href="mailto:contacto@integritas.com" className="btn btn-primary btn-lg">
+                                    <a href="mailto:contacto@integritasservicios.com" className="btn btn-primary btn-lg">
                                         Enviar Mensaje
                                     </a>
                                 </div>
