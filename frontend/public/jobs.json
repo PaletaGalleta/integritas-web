@@ -1,0 +1,49 @@
+[
+    {
+        "id": "1",
+        "postedDate": "2026-02-07",
+        "location": "Ciudad de México y Estado de México",
+        "title": "Chofer Repartidor",
+        "responsibilities": [
+            "Realizar entregas de paquetería en tiempo y forma",
+            "Mantener el vehículo en óptimas condiciones",
+            "Llevar registro de entregas realizadas",
+            "Brindar excelente servicio al cliente",
+            "Cumplir con rutas asignadas"
+        ],
+        "salary": "$12,000 - $15,000 MXN",
+        "ageRange": "25-45 años",
+        "type": "Presencial",
+        "horario": "Lunes a Viernes, 8:00 AM - 6:00 PM",
+        "zona": "Zona Metropolitana",
+        "benefits": ["Prestaciones de ley", "Bono por Productividad"],
+        "education": "Secundaria",
+        "priorExperience": "Conocimientos de la CDMX, Zona Metropolitana y Estado de México",
+        "experienceYears": "1-3 años",
+        "additionalInfo": "Indispensable contar con licencia de conducir vigente tipo A. Celular y Camioneta como equipo de trabajo.",
+        "active": true
+    },
+    {
+        "id": "2",
+        "postedDate": "2026-02-10",
+        "location": "Ciudad de México",
+        "title": "Vendedor / Vendedora",
+        "responsibilities": [
+            "Atención y servicio a clientes",
+            "Alcanzar metas de ventas establecidas",
+            "Mantener el área de trabajo ordenada",
+            "Realizar seguimiento a clientes potenciales",
+            "Promover productos y servicios de la empresa"
+        ],
+        "salary": "Salario base + comisiones + bonos",
+        "ageRange": "35+ años",
+        "type": "Presencial",
+        "horario": "Lunes a Viernes, 8:00 AM - 6:00 PM",
+        "zona": "Colonia Nativitas",
+        "benefits": ["Prestaciones de ley", "Salario fijo", "Comisiones", "Bonos por desempeño"],
+        "priorExperience": "Experiencia en servicio a clientes, habilidades de comunicación, actitud proactiva y responsable",
+        "experienceYears": "1+ años",
+        "additionalInfo": "NO ES CALLCENTER",
+        "active": true
+    }
+]

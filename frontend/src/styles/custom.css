@@ -1,0 +1,112 @@
+:root {
+    --primary-100: #63907c;
+    --primary-200: #7fa795;
+    --primary-300: #9dbcae;
+    --accent-100: #c2a97a;
+    --accent-200: #c2a97a;
+    --accent-300: #c2a97a;
+    --background-100: #fcfdfd;
+    --background-200: #edf3f3;
+    --background-300: #dde9e9;
+    --text-100: #111815;
+    --text-200: #26362f;
+    --text-300: #3b5449;
+}
+
+.text-brand {
+    color: #384186;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f6fb 0%, #e8eaf5 50%, #f0f2f9 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: #212529;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.fade-in:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.fade-in:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.fade-in:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hover-card {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    background-color: rgba(248, 249, 250, 0.95) !important;
+}
+
+.navbar-brand {
+    transition: opacity 0.3s ease;
+}
+
+.navbar-brand:hover {
+    opacity: 0.8;
+}
+
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    color: #384186 !important;
+    font-weight: 600;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #384186;
+    transition:
+        width 0.3s ease,
+        left 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+    left: 0;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #384186;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}

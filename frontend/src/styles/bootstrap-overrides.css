@@ -1,0 +1,104 @@
+/* Bootstrap Color Overrides - Must be imported BEFORE Bootstrap */
+:root {
+    --bs-primary: #384186;
+    --bs-primary-rgb: 56, 65, 134;
+    --bs-secondary: #13b09c;
+    --bs-secondary-rgb: 19, 176, 156;
+    --bs-tertiary: #e94b35;
+    --bs-tertiary-rgb: 233, 75, 53;
+
+    /* Primary color variations */
+    --bs-primary-bg-subtle: #d4d6e8;
+    --bs-primary-border-subtle: #a9aed1;
+    --bs-primary-text-emphasis: #161a35;
+
+    /* Secondary color variations */
+    --bs-secondary-bg-subtle: #cef3ed;
+    --bs-secondary-border-subtle: #9de7db;
+    --bs-secondary-text-emphasis: #084639;
+
+    /* Tertiary color variations */
+    --bs-tertiary-bg-subtle: #fbd9d4;
+    --bs-tertiary-border-subtle: #f7b3a9;
+    --bs-tertiary-text-emphasis: #5d1e15;
+}
+
+/* Override Bootstrap button colors directly */
+.btn-primary {
+    --bs-btn-bg: #384186;
+    --bs-btn-border-color: #384186;
+    --bs-btn-hover-bg: #2d3469;
+    --bs-btn-hover-border-color: #272f5e;
+    --bs-btn-active-bg: #272f5e;
+    --bs-btn-active-border-color: #212952;
+    --bs-btn-disabled-bg: #384186;
+    --bs-btn-disabled-border-color: #384186;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #13b09c;
+    --bs-btn-border-color: #13b09c;
+    --bs-btn-hover-bg: #0f8d7d;
+    --bs-btn-hover-border-color: #0e8173;
+    --bs-btn-active-bg: #0e8173;
+    --bs-btn-active-border-color: #0c7469;
+    --bs-btn-disabled-bg: #13b09c;
+    --bs-btn-disabled-border-color: #13b09c;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #384186;
+    --bs-btn-border-color: #384186;
+    --bs-btn-hover-bg: #384186;
+    --bs-btn-hover-border-color: #384186;
+    --bs-btn-active-bg: #384186;
+    --bs-btn-active-border-color: #384186;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #13b09c;
+    --bs-btn-border-color: #13b09c;
+    --bs-btn-hover-bg: #13b09c;
+    --bs-btn-hover-border-color: #13b09c;
+    --bs-btn-active-bg: #13b09c;
+    --bs-btn-active-border-color: #13b09c;
+}
+
+/* Text colors */
+.text-primary {
+    color: #384186 !important;
+}
+
+.text-secondary {
+    color: #13b09c !important;
+}
+
+.text-tertiary {
+    color: #e94b35 !important;
+}
+
+/* Background colors */
+.bg-primary {
+    background-color: #384186 !important;
+}
+
+.bg-secondary {
+    background-color: #13b09c !important;
+}
+
+.bg-tertiary {
+    background-color: #e94b35 !important;
+}
+
+/* Border colors */
+.border-primary {
+    border-color: #384186 !important;
+}
+
+.border-secondary {
+    border-color: #13b09c !important;
+}
+
+.border-tertiary {
+    border-color: #e94b35 !important;
+}
