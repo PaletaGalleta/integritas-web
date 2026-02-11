@@ -1,0 +1,18 @@
+{
+    "id": "UNIQUE_ID_HERE",
+    "postedDate": "YYYY-MM-DD",
+    "location": "Ciudad, Estado",
+    "title": "Título del Puesto",
+    "responsibilities": ["Responsabilidad 1", "Responsabilidad 2", "Responsabilidad 3", "Responsabilidad 4", "Responsabilidad 5"],
+    "salary": "Rango salarial o descripción (OCULTO - no se muestra en UI)",
+    "ageRange": "Rango de edad (ej: 25-45 años, 35+ años)",
+    "type": "Presencial | Híbrido | Remoto",
+    "horario": "Días y horario (ej: Lunes a Viernes, 8:00 AM - 6:00 PM)",
+    "zona": "Zona específica de trabajo (ej: Colonia Nativitas, CDMX)",
+    "benefits": ["Beneficio 1", "Beneficio 2", "Beneficio 3", "Beneficio 4"],
+    "education": "OPCIONAL - Nivel educativo requerido (ej: Secundaria, Preparatoria, Licenciatura)",
+    "priorExperience": "OPCIONAL - Descripción de experiencia previa requerida",
+    "experienceYears": "OPCIONAL - Años de experiencia (ej: 1-3 años, 5+ años)",
+    "additionalInfo": "OPCIONAL - Información adicional importante sobre el puesto",
+    "active": true
+}
