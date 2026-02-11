@@ -98,9 +98,9 @@ function Home() {
                     className="container d-flex flex-column align-items-center justify-content-center text-center"
                     style={{position: "relative", zIndex: 1, minHeight: "60vh"}}
                 >
-                    <img src="/logo_full.svg" alt="Logo Integritas" style={{maxWidth: "18rem"}} className="mb-4 fade-in" />
+                    <img src="/logo_full_white.svg" alt="Logo Integritas" style={{maxWidth: "18rem"}} className="mb-4 fade-in" />
 
-                    <h1 className="display-4 fw-bold fade-in" style={{color: "white", textShadow: "2px 2px 4px rgba(0,0,0,0.2)"}}>
+                    <h1 className="display-4 fade-in" style={{color: "white", textShadow: "2px 2px 4px rgba(0,0,0,0.2)"}}>
                         Potenciamos el Capital Humano de tu Organización
                     </h1>
                     <p className="lead mb-4 fade-in" style={{maxWidth: "700px", color: "rgba(255,255,255,0.95)"}}>

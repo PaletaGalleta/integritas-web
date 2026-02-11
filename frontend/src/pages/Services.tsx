@@ -53,7 +53,7 @@ function Services() {
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1
-                        className="display-4 fw-bold text-center mb-3 fade-in"
+                        className="display-4 text-center mb-3 fade-in"
                         style={{color: "white", textShadow: "2px 2px 4px rgba(0,0,0,0.2)"}}
                     >
                         Nuestros Servicios

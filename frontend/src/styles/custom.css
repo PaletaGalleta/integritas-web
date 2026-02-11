@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Vincendo";
+    src: url("fonts/Vincendo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Vincendo Italic";
+    src: url("fonts/Vincendo-Italic.ttf") format("truetype");
+}
+
 :root {
     --primary-100: #63907c;
     --primary-200: #7fa795;
@@ -15,6 +25,12 @@
 
 .text-brand {
     color: #384186;
+    font-family: "Vincendo", sans-serif !important;
+    /* letter-spacing: 0.5px; */
+}
+
+.text-sub {
+    font-family: "Vincendo Italic", sans-serif !important;
 }
 
 body {
@@ -109,4 +125,22 @@ body {
 
 .breadcrumb-item a:hover {
     text-decoration: underline;
+}
+
+/* Apply Vincendo font to all headers and titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6,
+.card-title {
+    font-family: "Vincendo", sans-serif !important;
+    letter-spacing: 0.5px;
 }
