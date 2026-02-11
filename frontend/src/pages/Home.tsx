@@ -131,7 +131,7 @@ function Home() {
             <section className="py-5">
                 <div className="container">
                     <div className="text-center mb-5">
-                        <h2 className="display-5 text-brand fw-bold fade-in">Nuestros Servicios</h2>
+                        <h2 className="display-5 text-brand fade-in">Nuestros Servicios</h2>
                         <p className="lead text-muted fade-in">Soluciones personalizadas para el éxito de tu empresa</p>
                     </div>
 
@@ -179,7 +179,7 @@ function Home() {
             <section className="py-5" style={{background: "linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%)"}}>
                 <div className="container">
                     <div className="text-center mb-5">
-                        <h2 className="display-6 text-brand fw-bold fade-in">¿Por Qué Elegirnos?</h2>
+                        <h2 className="display-6 text-brand fade-in">¿Por Qué Elegirnos?</h2>
                     </div>
 
                     <div className="row g-4">
@@ -284,7 +284,7 @@ function Home() {
                         style={{background: "linear-gradient(135deg, #e94b35 0%, #384186 100%)"}}
                     >
                         <div className="card-body text-center p-5">
-                            <h2 className="display-6 fw-bold mb-3">¿Listo para Potenciar tu Equipo?</h2>
+                            <h2 className="display-5 mb-3">¿Listo para Potenciar tu Equipo?</h2>
                             <p className="lead mb-4">
                                 Contáctanos hoy y descubre cómo podemos ayudarte a encontrar y desarrollar el mejor talento
                             </p>
