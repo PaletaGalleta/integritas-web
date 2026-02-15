@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Vincendo";
-    src: url("fonts/Vincendo-Regular.ttf") format("truetype");
+    src: url("/fonts/Vincendo-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Vincendo Italic";
-    src: url("fonts/Vincendo-Italic.ttf") format("truetype");
+    src: url("/fonts/Vincendo-Italic.ttf") format("truetype");
 }
 
 :root {
