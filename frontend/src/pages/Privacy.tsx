@@ -1,8 +1,15 @@
 import {Link} from "react-router-dom";
+import SEO from "../components/SEO";
 
 function Privacy() {
     return (
         <div>
+            <SEO
+                title="Aviso de Privacidad"
+                description="Aviso de privacidad de Integritas. Conoce cómo protegemos y manejamos tus datos personales de acuerdo con la legislación mexicana."
+                keywords="aviso de privacidad, protección de datos, ARCO, privacidad México"
+                canonicalUrl="/#/aviso-privacidad"
+            />
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1

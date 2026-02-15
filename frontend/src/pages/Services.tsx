@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUsers, faChartLine, faFlask, faBrain, faClipboardList, faFileAlt} from "@fortawesome/free-solid-svg-icons";
+import SEO from "../components/SEO";
 
 function Services() {
     const services = [
@@ -50,6 +51,12 @@ function Services() {
 
     return (
         <div>
+            <SEO
+                title="Servicios"
+                description="Servicios profesionales de recursos humanos: estudios socioeconómicos, pruebas toxicológicas, evaluaciones psicológicas, encuestas web, currículum certificado y reclutamiento de personal."
+                keywords="servicios RRHH, estudios socioeconómicos México, pruebas toxicológicas, evaluaciones psicológicas, reclutamiento México"
+                canonicalUrl="/#/servicios"
+            />
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1

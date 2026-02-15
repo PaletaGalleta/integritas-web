@@ -1,6 +1,14 @@
+import SEO from "../components/SEO";
+
 function About() {
     return (
         <div>
+            <SEO
+                title="Nosotros"
+                description="Conoce a Integritas, empresa líder en servicios de recursos humanos. Nuestra misión es potenciar el capital humano mediante soluciones personalizadas y estudios rigurosos."
+                keywords="sobre integritas, misión, visión, empresa recursos humanos México"
+                canonicalUrl="/#/nosotros"
+            />
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1

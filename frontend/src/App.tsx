@@ -1,4 +1,5 @@
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
+import {HelmetProvider} from "react-helmet-async";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
@@ -19,30 +20,32 @@ import "./styles/custom.css";
 
 function App() {
     return (
-        <Router>
-            <ScrollToTop />
-            <div className="d-flex flex-column min-vh-100">
-                <Navbar />
-                <div className="flex-grow-1">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/nosotros" element={<About />} />
-                        <Route path="/servicios" element={<Services />} />
-                        <Route path="/contacto" element={<Contact />} />
-                        <Route path="/aviso-privacidad" element={<Privacy />} />
-                        <Route path="/bolsa-trabajo" element={<Jobs />} />
-                        <Route path="/bolsa-trabajo/:id" element={<JobDetails />} />
-                        <Route path="/servicios/reclutamiento" element={<Reclutamiento />} />
-                        <Route path="/servicios/socioeconomicos" element={<Socioeconomicos />} />
-                        <Route path="/servicios/toxicologicas" element={<Toxicologicas />} />
-                        <Route path="/servicios/psicologicas" element={<Psicologicas />} />
-                        <Route path="/servicios/encuestas" element={<Encuestas />} />
-                        <Route path="/servicios/curriculum" element={<Curriculum />} />
-                    </Routes>
+        <HelmetProvider>
+            <Router>
+                <ScrollToTop />
+                <div className="d-flex flex-column min-vh-100">
+                    <Navbar />
+                    <div className="flex-grow-1">
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/nosotros" element={<About />} />
+                            <Route path="/servicios" element={<Services />} />
+                            <Route path="/contacto" element={<Contact />} />
+                            <Route path="/aviso-privacidad" element={<Privacy />} />
+                            <Route path="/bolsa-trabajo" element={<Jobs />} />
+                            <Route path="/bolsa-trabajo/:id" element={<JobDetails />} />
+                            <Route path="/servicios/reclutamiento" element={<Reclutamiento />} />
+                            <Route path="/servicios/socioeconomicos" element={<Socioeconomicos />} />
+                            <Route path="/servicios/toxicologicas" element={<Toxicologicas />} />
+                            <Route path="/servicios/psicologicas" element={<Psicologicas />} />
+                            <Route path="/servicios/encuestas" element={<Encuestas />} />
+                            <Route path="/servicios/curriculum" element={<Curriculum />} />
+                        </Routes>
+                    </div>
+                    <Footer />
                 </div>
-                <Footer />
-            </div>
-        </Router>
+            </Router>
+        </HelmetProvider>
     );
 }
 

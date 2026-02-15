@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import {useState, useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBriefcase, faMapMarkerAlt, faLaptopHouse, faBuilding, faHome} from "@fortawesome/free-solid-svg-icons";
+import SEO from "../components/SEO";
 
 interface Job {
     id: string;
@@ -70,6 +71,12 @@ function Jobs() {
 
     return (
         <div>
+            <SEO
+                title="Bolsa de Trabajo"
+                description="Encuentra tu próxima oportunidad profesional. Vacantes disponibles en Ciudad de México y Estado de México. Empleos presenciales, remotos e híbridos."
+                keywords="bolsa de trabajo México, vacantes CDMX, empleos Estado de México, trabajo remoto, trabajo presencial"
+                canonicalUrl="/#/bolsa-trabajo"
+            />
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1

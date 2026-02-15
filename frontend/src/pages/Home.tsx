@@ -11,6 +11,7 @@ import {
     faSearchPlus,
     faHandshake,
 } from "@fortawesome/free-solid-svg-icons";
+import SEO from "../components/SEO";
 
 function Home() {
     const services = [
@@ -71,6 +72,12 @@ function Home() {
 
     return (
         <div>
+            <SEO
+                title="Inicio"
+                description="Integritas ofrece servicios profesionales en gestión de talento humano: estudios socioeconómicos, evaluaciones psicológicas, pruebas toxicológicas, reclutamiento y selección de personal en México."
+                keywords="recursos humanos México, RRHH, estudios socioeconómicos, evaluaciones psicológicas, pruebas toxicológicas, reclutamiento, selección de personal, gestión de talento humano, CDMX"
+                canonicalUrl="/"
+            />
             {/* Hero Section */}
             <section
                 className="position-relative py-5"

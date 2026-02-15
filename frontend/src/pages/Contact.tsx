@@ -1,10 +1,17 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPhone, faEnvelope, faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import SEO from "../components/SEO";
 
 function Contact() {
     return (
         <div>
+            <SEO
+                title="Contacto"
+                description="Contáctanos para servicios de recursos humanos. Teléfono: 55 4752 5404, WhatsApp: 55 2327 2448. Email: contacto@integritasservicios.com. Estamos en Ciudad de México."
+                keywords="contacto integritas, teléfono recursos humanos, WhatsApp RRHH México, contacto@integritasservicios.com"
+                canonicalUrl="/#/contacto"
+            />
             <div className="py-5" style={{background: "linear-gradient(135deg, #384186 0%, #13b09c 100%)"}}>
                 <div className="container">
                     <h1
